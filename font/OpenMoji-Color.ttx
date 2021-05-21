@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.6">
+  <name>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      OpenMoji © HfG Schwäbisch Gmünd CC-BY-SA-4.0
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      OpenMoji
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Color
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      OpenMoji Color openmoji.org
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      OpenMoji Color
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409"></namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      OpenMojiColor
+    </namerecord>
+    <namerecord nameID="7" platformID="3" platEncID="1" langID="0x409">
+      Hochschule für Gestaltung Schwäbisch Gmünd
+    </namerecord>
+    <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
+      Hochschule für Gestaltung Schwäbisch Gmünd
+    </namerecord>
+    <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+      Daniel Utz &amp; Benedikt Groß with students of the HfG Schwäbisch Gmünd and other contributors
+    </namerecord>
+    <namerecord nameID="10" platformID="3" platEncID="1" langID="0x409">
+      Open-source emojis for designers, developers and everyone else! http://openmoji.org/ https://github.com/hfg-gmuend/openmoji
+    </namerecord>
+    <namerecord nameID="11" platformID="3" platEncID="1" langID="0x409">
+      http://openmoji.org/
+    </namerecord>
+    <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
+      http://openmoji.org/about.html
+    </namerecord>
+    <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
+      Creative Commons Share Alike 4.0
+    </namerecord>
+    <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
+      https://creativecommons.org/licenses/by-sa/4.0/
+    </namerecord>
+    <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
+      OpenMoji
+    </namerecord>
+    <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
+      Color
+    </namerecord>
+    <namerecord nameID="21" platformID="3" platEncID="1" langID="0x409">
+      OpenMoji Color
+    </namerecord>
+    <namerecord nameID="22" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+  </name>
+</ttFont>

@@ -6,6 +6,11 @@ const fs = require('fs');
 const path = require('path');
 const _ = require('lodash');
 
+const args = process.argv.slice(2);
+const build_dir = args[0];
+fs.mkdirSync(path.join(build_dir, 'color'), {recursive: true})
+fs.mkdirSync(path.join(build_dir, 'black'), {recursive: true})
+
 let hexcodes = [];
 const missingGlyphBlack = './black/svg/25A1.svg';
 const missingGlyphColor = './color/svg/25A1.svg';
@@ -19,8 +24,8 @@ svgFiles.forEach(f => {
 
   //copy files
   const filename = path.basename(f);
-  fs.copyFileSync(path.join('./color/svg/', filename) , path.join('./font/tmp-color/', filename));
-  fs.copyFileSync(path.join('./black/svg/', filename) , path.join('./font/tmp-black/', filename));
+  fs.copyFileSync(path.join('./color/svg/', filename) , path.join(build_dir, 'color', filename));
+  fs.copyFileSync(path.join('./black/svg/', filename) , path.join(build_dir, 'black', filename));
 });
 
 // filter to uniq hexcodes
@@ -32,7 +37,7 @@ hexcodes.forEach(h => {
   const filename = `${h}.svg`;
   if (!fs.existsSync(path.join('./color/svg/', filename))) {
     console.log(`${h} is missing -> substitute with "Missing Glyph": ${filename}`);
-    fs.copyFileSync(missingGlyphColor, path.join('./font/tmp-color/', filename));
-    fs.copyFileSync(missingGlyphBlack, path.join('./font/tmp-black/', filename));
+    fs.copyFileSync(missingGlyphColor, path.join(build_dir, 'color', filename));
+    fs.copyFileSync(missingGlyphBlack, path.join(build_dir, 'black', filename));
   }
 });

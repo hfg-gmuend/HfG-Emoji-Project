@@ -202,11 +202,11 @@ li.selected {
 }
 @font-face {
     font-family: 'OpenMojiBlack';
-    src: url('font/OpenMoji-Black.ttf') format('truetype');
+    src: url('font/glyf/OpenMoji-Black.ttf') format('truetype');
   }
 @font-face {
     font-family: 'OpenMojiColor';
-    src: url('font/OpenMoji-Color.ttf') format('truetype');
+    src: url('font/glyf_colr_0/OpenMoji-Color.ttf') format('truetype');
   }
 </style>
 </head>

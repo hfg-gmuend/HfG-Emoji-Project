@@ -16,6 +16,16 @@ helpers/lib/create-zip.sh black/618x618/ _tmp/openmoji-618x618-black.zip
 # -- fonts --
 (
   cd font
-  zip openmoji-font.zip OpenMoji-Black.ttf OpenMoji-Color.ttf openmoji.css demo.html -x ".*" -x "__MACOSX"
+  zip -x ".*" -x "__MACOSX" \
+      glyf/OpenMoji-Black.ttf \
+      glyf/demo.html \
+      glyf/openmoji.css \
+      glyf_colr_0/OpenMoji-Color.ttf \
+      glyf_colr_0/demo.html \
+      glyf_colr_0/openmoji.css \
+      scfbuild/OpenMoji-Color.ttf \
+      scfbuild/demo.html \
+      scfbuild/openmoji.css \
+      openmoji-font.zip
   mv openmoji-font.zip ../_tmp/
 )
