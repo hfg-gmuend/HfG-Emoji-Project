@@ -1,0 +1,19 @@
+<svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <g id="grid">
+    <path fill="#B3B3B3" d="M68 4V68H4V4H68ZM72 0H0V72H72V0Z"/>
+    <path fill="none" stroke="#00A5FF" stroke-miterlimit="10" stroke-width="0.1" d="M12.923 10.9583H59.0769C59.5869 10.9583 60.0761 11.1609 60.4367 11.5216C60.7974 11.8822 61 12.3714 61 12.8814V59.0352C61 59.5452 60.7974 60.0344 60.4367 60.3951C60.0761 60.7557 59.5869 60.9583 59.0769 60.9583H12.9231C12.4131 60.9583 11.9239 60.7557 11.5633 60.3951C11.2026 60.0344 11 59.5452 11 59.0352V12.8813C11 12.3713 11.2026 11.8822 11.5632 11.5215C11.9239 11.1609 12.413 10.9583 12.923 10.9583V10.9583Z"/>
+    <path fill="none" stroke="#00A5FF" stroke-miterlimit="10" stroke-width="0.1" d="M53.7463 4H18.2537C17.009 4 16 5.00902 16 6.2537V65.7463C16 66.991 17.009 68 18.2537 68H53.7463C54.991 68 56 66.991 56 65.7463V6.2537C56 5.00902 54.991 4 53.7463 4Z"/>
+    <path fill="none" stroke="#00A5FF" stroke-miterlimit="10" stroke-width="0.1" d="M68 53.7463V18.2537C68 17.009 66.991 16 65.7463 16L6.2537 16C5.00902 16 4 17.009 4 18.2537V53.7463C4 54.991 5.00902 56 6.2537 56L65.7463 56C66.991 56 68 54.991 68 53.7463Z"/>
+    <path fill="none" stroke="#00A5FF" stroke-miterlimit="10" stroke-width="0.1" d="M36 65C52.0163 65 65 52.0163 65 36C65 19.9837 52.0163 7 36 7C19.9837 7 7 19.9837 7 36C7 52.0163 19.9837 65 36 65Z"/>
+  </g>
+  <g id="color">
+    <rect x="21" y="24" width="30" height="31" fill="#fff"/>
+    <rect x="17" y="5" width="38" height="6" fill="#D0CFCE"/>
+    <path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" d="M23 67V16C23 13.5 24.5 12 27 12"/>
+  </g>
+  <g id="line">
+    <rect x="21" y="24" width="30" height="31" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M55 10V6C55 5.44772 54.5523 5 54 5H18C17.4477 5 17 5.44772 17 6V10"/>
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-width="2" d="M18 67H54C54.5523 67 55 66.5523 55 66V16C55 13.5 53.5 12 51 12H21C18.5 12 17 13.5 17 16V66C17 66.5523 17.4477 67 18 67Z"/>
+  </g>
+</svg>
